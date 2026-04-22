@@ -272,7 +272,7 @@ function Hero({ onContact }) {
         {/* Left: hero image */}
         <div style={{ position: "relative" }}>
           <Photo
-            src="photos/church-exit.jpg"
+            src="https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842901/church-exit_eqnqq1.jpg"
             ratio="2/3"
             tone={2}
             style={{ height: "100%", minHeight: narrow ? 420 : 560 }}
@@ -497,20 +497,20 @@ function Work({ showNumbers, density }) {
   const categories = ["All", "Weddings", "Details", "Aerial"];
 
   const items = [
-    { cat: "Aerial", src: "photos/venue-aerial.jpg", label: "quinta from above\naerial, portugal", ratio: "16/10", span: 8 },
-    { cat: "Weddings", src: "photos/signing.jpg", label: "registry signing\nchurch, candlelight", ratio: "2/3", span: 4 },
-    { cat: "Weddings", src: "photos/ceremony-joy.jpg", label: "ceremony recessional\nlisbon", ratio: "3/2", span: 7 },
-    { cat: "Weddings", src: "photos/wedding-01.jpg", label: "reception, late night\nlisbon", ratio: "3/2", span: 5 },
-    { cat: "Details", src: "photos/bride-shoes.jpg", label: "bride's shoes\ngetting ready", ratio: "2/3", span: 4 },
-    { cat: "Details", src: "photos/groom-details.jpg", label: "groom's details\nties, watch, cufflinks", ratio: "2/3", span: 4 },
-    { cat: "Details", src: "photos/cufflinks.jpg", label: "cufflinks & boutonnières\nmorning light", ratio: "3/2", span: 4 },
-    { cat: "Weddings", src: "photos/azulejo-walk.jpg", label: "bride walks out\nazulejo façade", ratio: "2/3", span: 4 },
-    { cat: "Weddings", src: "photos/church-exit.jpg", label: "church exit, rice toss\nlisbon", ratio: "2/3", span: 4 },
+    { cat: "Aerial", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842905/venue-aerial_ebp6vc.jpg", label: "quinta from above\naerial, portugal", ratio: "16/10", span: 8 },
+    { cat: "Weddings", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842903/signing_h3czkh.jpg", label: "registry signing\nchurch, candlelight", ratio: "2/3", span: 4 },
+    { cat: "Weddings", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842898/ceremony-joy_ylpeco.jpg", label: "ceremony recessional\nlisbon", ratio: "3/2", span: 7 },
+    { cat: "Weddings", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842909/wedding-01_lip2og.jpg", label: "reception, late night\nlisbon", ratio: "3/2", span: 5 },
+    { cat: "Details", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842901/bride-shoes_j1vvem.jpg", label: "bride's shoes\ngetting ready", ratio: "2/3", span: 4 },
+    { cat: "Details", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842905/groom-details_tpj5zc.jpg", label: "groom's details\nties, watch, cufflinks", ratio: "2/3", span: 4 },
+    { cat: "Details", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842902/cufflinks_cjvva8.jpg", label: "cufflinks & boutonnières\nmorning light", ratio: "3/2", span: 4 },
+    { cat: "Weddings", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842894/azulejo-walk_wfwlbn.jpg", label: "bride walks out\nazulejo façade", ratio: "2/3", span: 4 },
+    { cat: "Weddings", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842901/church-exit_eqnqq1.jpg", label: "church exit, rice toss\nlisbon", ratio: "2/3", span: 4 },
     { cat: "Weddings", src: "photos/band-night.jpg", label: "live band, first dance\noutdoor stage", ratio: "2/3", span: 4 },
-    { cat: "Aerial", src: "photos/reception-aerial.jpg", label: "full reception\nstretch tent, golden hour", ratio: "3/2", span: 8 },
-    { cat: "Details", src: "photos/cake.jpg", label: "wedding cake\nlate reception", ratio: "2/3", span: 4 },
-    { cat: "Weddings", src: "photos/guest-portrait.jpg", label: "guest portrait\ngolden hour", ratio: "2/3", span: 4 },
-    { cat: "Weddings", src: "photos/reception-laugh.jpg", label: "reception, quiet laugh\nquinta, portugal", ratio: "3/2", span: 8 },
+    { cat: "Aerial", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842898/reception-aerial_f8shv0.jpg", label: "full reception\nstretch tent, golden hour", ratio: "3/2", span: 8 },
+    { cat: "Details", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842898/cake_a1bfyj.jpg", label: "wedding cake\nlate reception", ratio: "2/3", span: 4 },
+    { cat: "Weddings", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842902/guest-portrait_pwflkl.jpg", label: "guest portrait\ngolden hour", ratio: "2/3", span: 4 },
+    { cat: "Weddings", src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842897/reception-laugh_raitze.jpg", label: "reception, quiet laugh\nquinta, portugal", ratio: "3/2", span: 8 },
   ];
 
   const filtered = filter === "All" ? items : items.filter(i => i.cat === filter);
@@ -632,7 +632,7 @@ function About({ showNumbers }) {
           alignItems: "start",
         }}>
           <div style={{ position: "sticky", top: 100 }}>
-            <Photo src="photos/inn-portrait.jpg" ratio="3/2" tone={1} />
+            <Photo src="https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842893/inn-portrait_jedrip.jpg" ratio="3/2" tone={1} />
           </div>
 
           <div style={{ fontSize: 19, lineHeight: 1.7, color: "var(--fg-dim)", fontWeight: 300 }}>
@@ -767,14 +767,14 @@ function Services({ showNumbers }) {
 // ────────────────────────────────────────────────────────────
 function Journal({ showNumbers }) {
   const posts = [
-    { src: "photos/reception-laugh.jpg", label: "quinta reception", ratio: "1/1" },
-    { src: "photos/signing.jpg", label: "registry, church", ratio: "1/1" },
-    { src: "photos/ceremony-joy.jpg", label: "church recessional", ratio: "1/1" },
-    { src: "photos/azulejo-walk.jpg", label: "azulejo walk", ratio: "1/1" },
-    { src: "photos/cake.jpg", label: "wedding cake", ratio: "1/1" },
-    { src: "photos/venue-aerial.jpg", label: "venue from above", ratio: "1/1" },
+    { src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842897/reception-laugh_raitze.jpg", label: "quinta reception", ratio: "1/1" },
+    { src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842903/signing_h3czkh.jpg", label: "registry, church", ratio: "1/1" },
+    { src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842898/ceremony-joy_ylpeco.jpg", label: "church recessional", ratio: "1/1" },
+    { src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842894/azulejo-walk_wfwlbn.jpg", label: "azulejo walk", ratio: "1/1" },
+    { src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842898/cake_a1bfyj.jpg", label: "wedding cake", ratio: "1/1" },
+    { src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842905/venue-aerial_ebp6vc.jpg", label: "venue from above", ratio: "1/1" },
     { src: "photos/band-night.jpg", label: "live band", ratio: "1/1" },
-    { src: "photos/bride-shoes.jpg", label: "details, morning of", ratio: "1/1" },
+    { src: "https://res.cloudinary.com/dvnd9lzel/image/upload/v1776842901/bride-shoes_j1vvem.jpg", label: "details, morning of", ratio: "1/1" },
   ];
   return (
     <section id="journal" style={{ padding: "120px 40px", borderTop: "1px solid var(--rule)", background: "var(--bg-elev)" }}>
